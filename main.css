@@ -1,9 +1,63 @@
+@font-face{
+    font-family: Pervitina;
+    src:url(Fonts/Pervitina-Dex-FFP.ttf)
+}
+
+@keyframes stripes{
+    0% { background-position: 0%;}
+    70%{background-position: 100%;}
+}
+
+body{
+    background-image: url(Images/Backgound_Body_3.png);
+    background-size: 500px 500px;
+}
+
 .nav-link{
     
-    color: red;
+    color: #5A7340;
+    font-family: Pervitina;
+    font-size: 1.4rem;
 
 }
 
-.bg-body-tertiary{
+.nav-link:hover{
+    color:#88A66A;
+}
 
+.bg-body-tertiary-md{
+    background-image: linear-gradient(180deg, black 50%, #4f4f4f) ;
+}
+
+.navbar-brand{
+    font-family: Pervitina, sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    background: linear-gradient(-45deg, #425931 25%, #88A66A 25%, #88A66A 50%, #425931 50%, #425931 75%, #88A66A 75%, #88A66A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size:15px 15px;
+    animation: stripes 15s linear infinite;
+    background-position: 0 0;
+}
+
+.navbar{
+    --bs-navbar-active-color: #88A66A;
+    --bs-navbar-hover-color: #5A7340;
+}
+
+.dropdown-menu{
+    color:#88A66A;
+    text-decoration: underline;
+    font-family: Impact;
+    background-color: #4f4f4f;
+}
+
+
+.dropdown-item{
+    color:#88A66A;
+}
+
+.dropdown-item:hover{
+    background-color: #5A7340;
 }

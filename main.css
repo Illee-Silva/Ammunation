@@ -1,9 +1,23 @@
+@font-face{
+
+}
+
 .nav-link{
     
     color: red;
 
 }
 
-.bg-body-tertiary{
+.bg-body-tertiary-md{
+    background-image: url(Images/MainPage/NavBar_BG.jpg);
+}
 
+.navbar-brand{
+    font-family: take_Cover, sans-serif;
+    color: white;
+    font-size: 2rem;
+    background: linear-gradient(-45deg, #ff7055 25%, #2c3b4b 25%, #2c3b4b 50%, #ff7055 50%, #ff7055 75%, #2c3b4b 75%, #2c3b4b);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    background-size:20px 20px;
 }

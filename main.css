@@ -61,11 +61,3 @@ body{
 .dropdown-item:hover{
     background-color: #5A7340;
 }
-.bg-success {
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
-  }
-    
-  section {
-    background-image: url("NavBar_BG.jpg") ;
-  }

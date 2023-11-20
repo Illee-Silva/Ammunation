@@ -4,6 +4,7 @@
 @font-face{
     font-family: Pervitina;
     src:url(Fonts/Pervitina-Dex-FFP.ttf)
+    
 }
 
 @keyframes stripes{
@@ -126,3 +127,38 @@ body{
 }
 
 /*==========================================*/
+
+/* Veiculos Aquaticos */
+.accordion{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    --bs-accordion-btn-focus-border-color: white;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.accordion-button{
+    background-color: #88A66A;
+    font-family: Impact;
+}
+
+.accordion-button:not(.collapsed){
+    color: white;
+    background-color: #88A66A;
+}
+
+.accordion-body{
+    background-color: #5A7340;
+}
+
+.image-accordion{
+    width: 60%;
+    height: 60%;
+    outline: solid #88A66A 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/*===========================================*/

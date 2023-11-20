@@ -126,3 +126,22 @@ body{
 }
 
 /*==========================================*/
+
+/* Veiculos Aquaticos */
+.accordion{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.accordion-button{
+    background-color: #88A66A;
+}
+
+.accordion-button:not(.collapsed){
+    color: white;
+    background-color: #88A66A;
+}
+
+
+/*===========================================*/

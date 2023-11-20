@@ -1,3 +1,6 @@
+
+/* MainPage */
+
 @font-face{
     font-family: Pervitina;
     src:url(Fonts/Pervitina-Dex-FFP.ttf)
@@ -41,6 +44,18 @@ body{
     background-position: 0 0;
 }
 
+.navbar-brand-md{
+    font-family: Pervitina, sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    background: linear-gradient(-90deg, #5A7340 25%, #88A66A 25%, #88A66A 50%, #5A7340 50%, #5A7340 75%, #88A66A 75%, #88A66A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size:90px 90px;
+    animation: stripes 120s linear infinite;
+    background-position: 0 0;
+}
+
 .navbar{
     --bs-navbar-active-color: #88A66A;
     --bs-navbar-hover-color: #5A7340;
@@ -61,3 +76,53 @@ body{
 .dropdown-item:hover{
     background-color: #5A7340;
 }
+
+.container-md{
+    background-color: rgba( 79, 79, 79, 0.97);
+    outline:solid #88A66A;
+
+}
+
+.tittle-md{
+    text-align: center;
+    color: #88A66A;
+    font-family: Pervitina;
+}
+
+.carousel-size{
+    width: 80%;
+    height: 512px;
+    margin-right: auto;
+    margin-left: auto;
+    outline: solid #88A66A;
+    outline-width: 5px; 
+}
+
+.carousel-text{
+    color:whitesmoke;
+    background-color:rgba(66, 89, 49, 0.79);
+}
+
+.col-sm-6{
+    width: 33%;
+}
+
+.card{
+    --bs-card-bg: #88a66a;
+}
+
+.card-title{
+    font-family: Pervitina;
+}
+
+/*==========================================*/
+
+/* Veiculos Aereos */
+
+.text-bg-success-md {
+    background-color: rgba( 79, 79, 79, 0.97);
+    color:whitesmoke;
+    outline: solid #88A66A;
+}
+
+/*==========================================*/
